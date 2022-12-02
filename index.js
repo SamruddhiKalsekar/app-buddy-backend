@@ -39,7 +39,7 @@ app.use(
     secret: "KunalSamruddhi",
     resave: false,
     saveUninitialized: false,
-    cookie: { sameSite: 'none', secure: true,maxAge:1000*60*60 }    //uncomment for production
+    cookie: { sameSite: 'none', secure: true,maxAge:1000*60*60 ,domain:'https://unique-donut-e85026.netlify.app/'}    //uncomment for production
   })
 );
 app.use(express.json());
