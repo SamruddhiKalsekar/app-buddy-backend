@@ -18,7 +18,7 @@ dotenv.config();
 const app = express();
 // app.disable("X-Powered-By");
 
-// app.set("trust proxy", 1); // -------------- FIRST CHANGE ----------------
+app.set("trust proxy", 1); // -------------- FIRST CHANGE ----------------
 
 // app.use(cors({ origin: process.env.ORIGIN, credentials: true, methods: "GET, POST, PUT, DELETE" }));
 // app.use(function (req, res, next) {
